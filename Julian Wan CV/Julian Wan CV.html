@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Page Title</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="CV styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="nav-wrapper">
+            <div class="left-side">
+                <div class="nav-link-wrapper active-nav-link">
+                    <a href="Julian Wan CV.html">Home</a>
+                </div>
+                <div class="nav-link-wrapper">
+                    <a href="Julian Wan About.html">About</a>
+                </div>
+            </div>
+
+            <div class="right-side">
+                <div class="brand">
+                    <div>JULIAN WAN WING JIUNG</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-wrapper">
+
+            <div class="subcategory">
+                <h1>Key Skills & Attributes</h1>
+            </div>
+
+            <div class="portfolio-items-wrapper-KSA">
+
+                <div class="portfolio-item-wrapper">
+                    <div class = "portfolio-img-background" style="background-image:url(Illustrations/Certificate.JPG)">
+                    </div>
+
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper">
+                            <img src="Illustrations/Python.png">
+                        </div> 
+
+                        <div class="subtitle">
+                            Python Certifications (Coursera):
+                            <p>Applied Data Science with Python Specialization</p>
+                            <p>Python for Everybody Specialization</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item-wrapper">
+                    <div class = "portfolio-img-background" style="background-image:url(Illustrations/Gold.jpg)">
+                    </div>
+
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper">
+                            <img src="Illustrations/Gold.png">
+                        </div>
+
+                        <div class="subtitle">
+                            Automated Physical Bullion Value Tracker
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item-wrapper">
+                    <div class = "portfolio-img-background" style="background-image:url(Images/Mike.jpg)">
+                    </div>
+
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper">
+                            <img src="Images/Logos/Bruh.png">
+                        </div>
+
+                        <div class="subtitle">
+                            Programming (Learning & Experience):
+                            JavaScript, HTML, CSS & AWS 
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+            
+            <div class="subcategory">
+                <h1>Work & Professional Experience</h1>
+            </div>
+
+            <div class="portfolio-items-wrapper-WPE">   
+
+                <div class="portfolio-item-wrapper">
+                    <div class = "portfolio-img-background" style="background-image:url(Illustrations/Certificate.JPG)">
+                    </div>
+
+                    <div class="img-text-wrapper-2pc">
+                        <div class="logo-wrapper">
+                            <img src="Illustrations/Python.png">
+                        </div> 
+
+                        <div class="subtitle">
+                            QA Engineer Intern
+                            <p>CPI (KL) Sdn. Bhd.</p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="portfolio-item-wrapper">
+                    <div class = "portfolio-img-background" style="background-image:url(Illustrations/Certificate.JPG)">
+                    </div>
+
+                    <div class="img-text-wrapper-2pc">
+                        <div class="logo-wrapper">
+                            <img src="Illustrations/Python.png">
+                        </div> 
+
+                        <div class="subtitle">
+                            Training Coordinator
+                            <p>Trans Development Corporation (M) Sdn. Bhd.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="subcategory">
+                <h1>Education & Co-Curriculum Achievement</h1>
+            </div>
+
+            <div class="portfolio-items-wrapper-ECA">
+
+                <div class="portfolio-item-wrapper">
+                    <div class = "portfolio-img-background" style="background-image:url(Illustrations/Certificate.JPG)">
+                    </div>
+
+                    <div class="img-text-wrapper-2pc">
+                        <div class="logo-wrapper">
+                            <img src="Illustrations/Python.png">
+                        </div> 
+
+                        <div class="subtitle">
+                            Bachelor of Mechanical Engineering (Hons) 
+                            <p>CGPA: 3.66</p>
+                            <p>Universiti Kebangsaan Malaysia</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item-wrapper">
+                    <div class = "portfolio-img-background" style="background-image:url(Illustrations/Certificate.JPG)">
+                    </div>
+
+                    <div class="img-text-wrapper-2pc">
+                        <div class="logo-wrapper">
+                            <img src="Illustrations/Python.png">
+                        </div> 
+
+                        <div class="subtitle">
+                            Materials Lecture Competition
+                            <p>UKM Representative, Semi-Final (National Level), 2018</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</body>
+<script>
+    const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper')
+
+    portfolioItems.forEach(portfolioItem => {
+        portfolioItem.addEventListener('mouseover', () => {
+            portfolioItem.childNodes[1].classList.add('img-darken');
+        })
+
+        portfolioItem.addEventListener('mouseout', () => {
+            portfolioItem.childNodes[1].classList.remove('img-darken');
+        })
+    })
+
+</script>
+</html>
