@@ -1,10 +1,18 @@
 . Change the no. of items based on the items on CV DONE
+
 . Change text for each item and about DONE
+
 . Change the arrangement of:
 - item wrapper DONE
 - headers DONE
 - padding DONE
 - icon & subtitle DONE
+
+. Icon fade in and out effect DONE
+reference: (https://stackoverflow.com/questions/3331353/transitions-on-the-css-display-property)
+
 . Change images for each item and about
+
 . Change silly fonts
+
 . Add background colour to CV page

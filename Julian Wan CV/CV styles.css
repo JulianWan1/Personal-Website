@@ -119,6 +119,29 @@ body {
     margin-bottom: 20px;
 }
 
+.logo-wrapper-2pc img{
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+.img-text-wrapper .logo-wrapper {
+    opacity: 0;
+    transition: opacity 0.7s;
+}
+
+.img-text-wrapper:hover .logo-wrapper {
+    opacity: 1;
+}
+
+.img-text-wrapper-2pc .logo-wrapper-2pc {
+    opacity: 0;
+    transition: opacity 0.7s;
+}
+
+.img-text-wrapper-2pc:hover .logo-wrapper-2pc {
+    opacity: 1;
+}
+
 .img-text-wrapper .subtitle {
     transition: 0.7s;
     font-weight: 600;
