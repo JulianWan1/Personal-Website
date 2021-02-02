@@ -1,7 +1,8 @@
 /* Master styles */
 body {
-    font-family: "Londrina Solid", sans-serif;
+    font-family: "Marcellus", sans-serif;
     margin: 0px;
+    background-color: whitesmoke ;
 }
 
 .container {
@@ -59,6 +60,7 @@ body {
 
 .subcategory {
     padding: 35px;
+    text-transform: uppercase;
 }
 
 .portfolio-items-wrapper-KSA {
@@ -78,6 +80,7 @@ body {
 
 .portfolio-item-wrapper{
     position: relative;
+    text-transform: uppercase;
 }
 
 .portfolio-img-background {
@@ -110,7 +113,7 @@ body {
     align-items: center;
     height: 100%;
     text-align: center;
-    padding-left: 150px;
+    padding-left: 100px;
     padding-right: 100px;
 }
 
@@ -172,17 +175,20 @@ body {
 /* About page styles */
 .two-column-wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 0.6fr 1fr;
 }
 
 .profile-image-wrapper img {
-    width: 100%;
+    width: 55%;
+    padding-left: 30%;
 }
 
 .profile-content-wrapper {
-    padding: 30px;
+    padding-right: 40%;
+    font-size: 1.2em;
 }
 
 .profile-content-wrapper h1 {
-    color:crimson;
+    color: lightseagreen;
+    text-transform: uppercase;
 }
