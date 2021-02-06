@@ -176,19 +176,46 @@ body {
 .two-column-wrapper {
     display: grid;
     grid-template-columns: 0.6fr 1fr;
+    padding-bottom: 60px;
 }
 
 .profile-image-wrapper img {
-    width: 55%;
-    padding-left: 30%;
+    width: 60%;
+    padding-top: 5%;
+    padding-left: 20%;
 }
 
 .profile-content-wrapper {
-    padding-right: 40%;
-    font-size: 1.2em;
+    padding-right: 22%;
+    font-size: 1.1em;
+    text-align:justify;
 }
 
-.profile-content-wrapper h1 {
+.profile-content-wrapper h1,h2 {
     color: lightseagreen;
     text-transform: uppercase;
 }
+
+.fa {
+    padding: 20px;
+    font-size: 85px;
+    width: 100px;
+    text-align: center;
+    text-decoration-line:none;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color:white;
+}
+
+.fa-github {
+    background-color:purple;
+    color:white;
+}
+
+.fa-google {
+      background-color: gold;
+      color: white;
+}
+  
